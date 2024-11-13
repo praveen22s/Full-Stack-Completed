@@ -1,0 +1,102 @@
+/* src/App.css */
+
+.paymentForm {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paymentForm div {
+  margin-bottom: 15px;
+}
+
+.paymentForm label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.paymentForm input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.paymentForm input[type="text"],
+.paymentForm input[type="email"],
+.paymentForm input[type="number"] {
+  font-size: 14px;
+}
+
+.paymentForm input[type="text"]:focus,
+.paymentForm input[type="email"]:focus,
+.paymentForm input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.paymentForm button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.paymentForm button:hover {
+  background-color: #0056b3;
+}
+
+.paymentForm p {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+
+/* src/App.css */
+.paymentSummary {
+  max-width: 400px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: #f9f9f9;
+  margin-bottom: 100px;
+}
+
+.paymentSummary h2 {
+  text-align: center;
+  color: #333;
+}
+
+.paymentSummary p {
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.paymentSummary p span {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+    color: #333;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
